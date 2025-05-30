@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meghana Vasamsetty Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header/Navbar -->
+    <header>
+      <div class="header-container">
+        <div>
+          <h1 class="header-title">Meghana Vasamsetty</h1>
+          <p class="header-subtitle">
+            Aspiring Software Developer | Product-Oriented Thinker
+          </p>
+        </div>
+        <div class="header-actions">
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle theme"
+          >
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li>
+              <a href="#certifications" class="nav-link">Certifications</a>
+            </li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about" class="section about-container" data-aos="fade-up">
+        <div class="profile-section">
+          <div class="profile-image-container">
+            <img
+              src="./images/profile_picture.jpg"
+              alt="profile"
+              class="profile-image"
+            />
+          </div>
+          <div class="profile-intro">
+            <h2>Meghana Vasamsetty</h2>
+            <p class="profile-tagline">Turning Ideas into Elegant Solutions</p>
+            <div class="profile-stats">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">10K+</span>
+                <span class="stat-label">Users Impacted</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <h2 class="section-title"><i class="fas fa-user"></i>About Me</h2>
+          <p>
+            As a Computer Science graduate student at the University of New
+            Haven, I am passionate about creating innovative solutions that make
+            a real difference. My journey in technology has been driven by a
+            curiosity to understand how things work and a desire to build
+            systems that enhance people's lives.
+          </p>
+          <p>
+            With over a year of hands-on experience in full-stack development at
+            Planon and CoMakeIT, I've had the opportunity to work on projects
+            that served 10,000+ users. This experience has taught me the
+            importance of writing clean, maintainable code and building
+            user-centric solutions.
+          </p>
+          <p>My technical expertise includes:</p>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend Development</h3>
+              <ul>
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>HTML5 & CSS3</li>
+                <li>Vue.js</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Backend Development</h3>
+              <ul>
+                <li>Java & Spring Boot</li>
+                <li>Node.js</li>
+                <li>RESTful APIs</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Database & Cloud</h3>
+              <ul>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>AWS Services</li>
+                <li>Azure Cloud</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Tools & Methods</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>Jira & Confluence</li>
+                <li>Netlify & Render</li>
+                <li>Agile & Scrum</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section" data-aos="fade-up">
+        <h2 class="section-title">
+          <i class="fas fa-briefcase"></i>Work Experience
+        </h2>
+        <div class="cards-grid">
+          <div class="card" data-aos="fade-right">
+            <img src="./images/planon.png" alt="Planon" class="card-image" />
+            <h3 class="card-title">Software Development at Planon</h3>
+            <p class="card-subtitle">
+              Hyderabad, India | July 2022 - July 2023
+            </p>
+            <ul>
+              <li>
+                Led the development of enterprise resource management modules
+                using Spring Boot and React.js, reducing workflow time by 40%
+              </li>
+              <li>
+                Implemented RESTful APIs and optimized database queries,
+                improving system performance by 50%
+              </li>
+              <li>
+                Managed product backlog and sprint planning using Jira,
+                following SAFe practices to deliver features impacting 5000+
+                users
+              </li>
+              <li>
+                Maintained technical documentation in Confluence and
+                participated in code reviews following team's best practices
+              </li>
+            </ul>
+          </div>
+          <div class="card" data-aos="fade-left">
+            <img
+              src="./images/comakeit.png"
+              alt="comakeit"
+              class="card-image"
+            />
+            <h3 class="card-title">Software Developer at CoMakeIT</h3>
+            <p class="card-subtitle">
+              Hyderabad, India | August 2021 - July 2022
+            </p>
+            <ul>
+              <li>
+                Developed backend features for FacilityHub using Java, Spring
+                Boot, and MySQL, supporting 5,000+ enterprise users and
+                optimizing API performance
+              </li>
+              <li>
+                Designed efficient database schemas and RESTful APIs, improving
+                data retrieval speed by 30% and enabling real-time updates for
+                bookings and timesheet workflows
+              </li>
+              <li>
+                Collaborated in Agile ceremonies and managed sprint deliverables
+                using Jira and Confluence
+              </li>
+              <li>
+                Created reusable UI components with Material-UI, enhancing
+                development efficiency by 35%
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section" data-aos="fade-up">
+        <h2 class="section-title">
+          <i class="fas fa-graduation-cap"></i>Education
+        </h2>
+        <div class="cards-grid">
+          <div class="card education-card" data-aos="fade-right">
+            <div class="education-header">
+              <div class="education-image-container">
+                <img src="./images/unh.png" alt="UNH" class="education-image" />
+              </div>
+              <div class="education-title">
+                <h3 class="card-title">University of New Haven</h3>
+                <p class="card-subtitle">
+                  MS in Computer Science | 2023 - 2025
+                </p>
+              </div>
+            </div>
+            <ul>
+              <li>GPA: 3.8/4.0</li>
+              <li>
+                Specializing in Advanced Software Development and Cloud
+                Computing
+              </li>
+              <li>
+                Research focus on Machine Learning applications in Software
+                Engineering
+              </li>
+              <li>
+                Key courses: Web Development,Cloud Computing, AI, Database
+                Management
+              </li>
+              <li>
+                Developed full-stack applications using MERN stack and deployed
+                on cloud platforms
+              </li>
+            </ul>
+          </div>
+          <div class="card education-card" data-aos="fade-left">
+            <div class="education-header">
+              <div class="education-image-container">
+                <img
+                  src="./images/cmrit.png"
+                  alt="CMRIT"
+                  class="education-image"
+                />
+              </div>
+              <div class="education-title">
+                <h3 class="card-title">CMR Institute of Technology</h3>
+                <p class="card-subtitle">
+                  B.Tech in Computer Science | 2019 - 2023
+                </p>
+              </div>
+            </div>
+            <ul>
+              <li>Graduated with First Class Honors (9.4/10 CGPA)</li>
+              <li>
+                Led the College Technical Club organizing workshops and
+                hackathons
+              </li>
+              <li>
+                Received Outstanding Student Award for academic excellence
+              </li>
+              <li>
+                Implemented a Skin Cancer Detection System using Deep Learning
+                achieving 95% accuracy
+              </li>
+              <li>
+                Developed an Emotion Recognition Model using CNN and deployed it
+                as a web application
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section" data-aos="fade-up">
+        <h2 class="section-title"><i class="fas fa-code"></i>Projects</h2>
+        <div class="projects-grid">
+          <div class="card project-card" data-aos="zoom-in">
+            <img
+              src="./images/travel.jpg"
+              alt="Travel Destinations"
+              class="card-image"
+            />
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="card-title">Travel Destinations Explorer</h3>
+                <a
+                  href="https://github.com/Meghana1301/travel-vue"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <p class="project-tech">
+                Vue.js • Node.js • MongoDB • Express.js
+              </p>
+              <p>
+                Developed a travel recommendation platform using Vue.js for the
+                frontend and Node.js for the backend, handling 2,000+ daily API
+                requests. Integrated into MongoDB to manage 50,000+ destination
+                records, supporting personalized trip planning. Implemented
+                recommendation logic based on weather, attractions, and user
+                preferences across 200+ destinations.
+              </p>
+            </div>
+          </div>
+
+          <div class="card project-card" data-aos="zoom-in">
+            <img
+              src="./images/finance.png"
+              alt="Finance Tracker"
+              class="card-image"
+            />
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="card-title">Personal Finance Tracker</h3>
+                <a
+                  href="https://github.com/Meghana1301/personal-finance-tracker"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <p class="project-tech">
+                React.js • Express.js • MongoDB • Chart.js
+              </p>
+              <p>
+                Designed and developed a personal finance application using
+                React.js and Express.js with MySQL, supporting 1,000+
+                transactions. Implemented user authentication, transaction
+                logging, and expense categorization across 10+ custom
+                categories. Built RESTful APIs for managing monthly budgets and
+                retrieving financial data. Integrated Chart.js to generate
+                interactive reports, visualizing spending trends and budget
+                utilization.
+              </p>
+            </div>
+          </div>
+
+          <div class="card project-card" data-aos="zoom-in">
+            <img
+              src="./images/timesheet.jpg"
+              alt="Employee Timesheet"
+              class="card-image"
+            />
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="card-title">Smart Timesheet Manager</h3>
+                <a
+                  href="https://github.com/Meghana1301/employeetimesheet"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <p class="project-tech">
+                React • Spring Boot • MySQL • Material-UI
+              </p>
+              <p>
+                Developed a timesheet management system using React and
+                Material-UI with Spring Boot and MySQL, supporting 100+ users
+                and managing 10,000+ time entries. Implemented daily work hour
+                logging, project assignment across 20+ active projects, and
+                role-based access for employees and managers. Built RESTful APIs
+                enabling real-time submission and approval of timesheets,
+                streamlining team productivity tracking and reducing manual
+                effort by 60%.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="section" data-aos="fade-up">
+        <h2 class="section-title">
+          <i class="fas fa-certificate"></i>Certifications
+        </h2>
+        <div class="cards-grid">
+          <div class="card certificate-card" data-aos="zoom-in">
+            <img
+              src="https://www.vectorlogo.zone/logos/java/java-icon.svg"
+              alt="Java"
+              class="certificate-icon"
+            />
+            <div class="certificate-content">
+              <h3 class="card-title">Java Full Stack Development</h3>
+              <p class="card-subtitle">Issued by Great Learning | 2023</p>
+              <p>
+                Completed intensive Java development program covering Spring
+                Boot, Hibernate, and microservices. Built e-commerce application
+                with JWT authentication, MySQL integration, and REST APIs.
+                Achieved distinction grade with 90% score.
+              </p>
+            </div>
+          </div>
+          <div class="card certificate-card" data-aos="zoom-in">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+              alt="Python"
+              class="certificate-icon"
+            />
+            <div class="certificate-content">
+              <h3 class="card-title">
+                Python for Data Science and Machine Learning
+              </h3>
+              <p class="card-subtitle">Issued by Coursera | 2023</p>
+              <p>
+                Comprehensive certification covering Python programming, data
+                analysis, machine learning algorithms, and practical
+                applications in real-world scenarios. Completed hands-on
+                projects in data visualization and ML model development.
+              </p>
+            </div>
+          </div>
+          <div class="card certificate-card" data-aos="zoom-in">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              alt="React"
+              class="certificate-icon"
+            />
+            <div class="certificate-content">
+              <h3 class="card-title">Modern React with Redux</h3>
+              <p class="card-subtitle">Issued by Udemy | 2023</p>
+              <p>
+                Advanced certification in React.js development, covering hooks,
+                Redux state management, React Router, and modern application
+                architecture. Built multiple full-stack applications during the
+                course.
+              </p>
+            </div>
+          </div>
+          <div class="card certificate-card" data-aos="zoom-in">
+            <img
+              src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+              alt="Azure Fundamentals"
+              class="certificate-icon"
+            />
+            <div class="certificate-content">
+              <h3 class="card-title">Microsoft Azure Fundamentals</h3>
+              <p class="card-subtitle">Issued by Microsoft | 2023</p>
+              <p>
+                Comprehensive understanding of cloud concepts, Azure services,
+                security, privacy, compliance, and trust. Demonstrated expertise
+                in cloud solution architecture and deployment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section id="achievements" class="section" data-aos="fade-up">
+        <h2 class="section-title"><i class="fas fa-trophy"></i>Achievements</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card" data-aos="fade-up">
+            <div class="achievement-icon">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="achievement-content">
+              <h3>Technical Contributions</h3>
+              <p class="achievement-meta">Planon Software | 2023</p>
+              <div class="achievement-stats">
+                <div class="stat">
+                  <span class="stat-value">15+</span>
+                  <span class="stat-label">Features Delivered</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-value">90%</span>
+                  <span class="stat-label">Test Coverage</span>
+                </div>
+              </div>
+              <p class="achievement-description">
+                Key contributions to enterprise resource management modules:
+              </p>
+              <ul class="achievement-points">
+                <li>
+                  Developed and maintained core functionality using Spring Boot
+                  and React
+                </li>
+                <li>
+                  Implemented comprehensive unit tests improving module
+                  reliability
+                </li>
+                <li>
+                  Collaborated with team to optimize database queries and API
+                  performance
+                </li>
+                <li>
+                  Actively participated in code reviews and Agile ceremonies
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="achievement-card" data-aos="fade-up">
+            <div class="achievement-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="achievement-content">
+              <h3>Academic Excellence</h3>
+              <p class="achievement-meta">University of New Haven | 2023</p>
+              <div class="achievement-stats">
+                <div class="stat">
+                  <span class="stat-value">3.8</span>
+                  <span class="stat-label">GPA</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-value">3+</span>
+                  <span class="stat-label">Projects</span>
+                </div>
+              </div>
+              <p class="achievement-description">
+                Demonstrated strong academic performance and technical
+                contributions:
+              </p>
+              <ul class="achievement-points">
+                <li>Developed multiple ML and cloud-based projects</li>
+                <li>Active member of Computer Science Graduate Association</li>
+                <li>
+                  Selected for advanced coursework in AI and Cloud Computing
+                </li>
+                <li>
+                  Participated in various technical workshops and seminars
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="achievement-card" data-aos="fade-up">
+            <div class="achievement-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <div class="achievement-content">
+              <h3>Gold Medalist</h3>
+              <p class="achievement-meta">CMR Institute of Technology | 2023</p>
+              <div class="achievement-stats">
+                <div class="stat">
+                  <span class="stat-value">9.4</span>
+                  <span class="stat-label">CGPA</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-value">1st</span>
+                  <span class="stat-label">Department Rank</span>
+                </div>
+              </div>
+              <p class="achievement-description">
+                Achieved academic excellence and leadership in computer science:
+              </p>
+              <ul class="achievement-points">
+                <li>Department gold medal for highest CGPA</li>
+                <li>Led technical club with 200+ members</li>
+                <li>Published research paper on cloud computing</li>
+                <li>Mentored 15+ juniors in programming</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="contact-info">
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a
+                href="mailto:meghanavasamsetty13@gmail.com"
+                class="social-link"
+              >
+                meghanavasamsetty13@gmail.com
+              </a>
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>New York, USA</span>
+            </p>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/meghana-vasamsetty-8015a01a9/"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+        <a href="./Meghana_Resume.pdf" class="footer-resume-button" download>
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
