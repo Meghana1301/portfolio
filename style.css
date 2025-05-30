@@ -134,15 +134,15 @@ main {
 }
 
 .section {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 /* About section */
 .about-container {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    padding: 2rem 0;
+    gap: 2rem;
+    padding: 1rem 0;
 }
 
 .profile-section {
@@ -407,7 +407,7 @@ main {
     background: var(--bg-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
