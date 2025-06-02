@@ -608,19 +608,6 @@ main {
     color: var(--primary-color);
 }
 
-.demo-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    transition: var(--transition);
-}
-
-.demo-link:hover {
-    background: var(--primary-color);
-    color: white;
-}
-
 /* Certificate cards */
 .certificate-card {
     display: flex;
@@ -784,31 +771,6 @@ footer {
 .theme-toggle:hover {
     color: var(--primary-color);
     transform: scale(1.1);
-}
-
-.resume-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: var(--bg-gradient);
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 9999px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: var(--transition);
-    border: none;
-    cursor: pointer;
-    box-shadow: var(--shadow);
-}
-
-.resume-button:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-}
-
-.resume-button i {
-    font-size: 1.1em;
 }
 
 /* Dark mode specific adjustments */
